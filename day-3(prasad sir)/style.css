@@ -1,0 +1,39 @@
+/* P{
+    text-align: center;
+    text-align: right;
+    
+} */
+
+
+/* a{
+    text-decoration: none;
+} */
+
+
+
+
+/* text-decoration properties--- */
+P{
+/* 
+    this is for using underline purposes */
+     text-decoration-line: underline;
+/* 
+     this is for thickness purposes */
+    text-decoration-thickness:2px ; 
+
+    /* this is for wavimg underline ------- */
+    /* text-decoration-style: wavy; */
+    text-decoration-style: double;
+
+    /* for changing the underline color ---- */
+    text-decoration-color: rgb(26, 227, 15);
+
+}
+
+
+
+
+/* theory about today--- */
+1.text-align
+2.text-decoration
+3.text-overflow

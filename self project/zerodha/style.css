@@ -1,0 +1,305 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    width: 100vw;
+}
+main{
+    width: 100%;
+    height: auto;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color:#ffff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    box-shadow: 0 0.15px 1px #cdcccc;
+}
+
+.log0{
+   margin-left: 120px;
+}
+.logo img{
+    height: 20px;
+}
+
+.nav-link{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.nav-link a{
+    text-decoration: none;
+    color:  #737373;
+}
+
+.nav-link a:hover{
+    color:  #007bff;
+}
+
+.nav-link a:last-of-type{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.nav-link a:last-of-type>span{        
+    width: 25px;    
+    height: 2px;    
+    background-color: #4e4e4e;
+}
+
+.content1{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+   
+}
+
+.main-content {
+    
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.image {
+    background-image: url('https://zerodha.com/static/images/landing.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.content h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.content p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.content button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 35px;
+}
+
+.content button:hover {
+    background-color:black;
+}
+
+.content2{
+    width: 100%;
+    display: flex;
+    margin-top: 90px;
+}
+
+.left{
+    width: 50%;
+    height: 400px;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+  
+}
+
+.pic{
+    width: 440px;
+    height: 280px;
+    margin-top: 10px;
+}
+
+.image2{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://zerodha.com/static/images/largest-broker.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.right {
+    width: 50%;
+    height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    color: black;
+    position: relative;
+}
+
+.hnds{
+    position: relative;
+}
+
+.hnds h2 {
+    position: absolute;
+    top: -50px;
+    left: 0%;
+    margin-bottom: 8px;
+    padding: 0%;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 300;
+
+    
+}
+
+
+p {
+    margin-top: 40px;
+    font-size: 1em;
+    margin: 10px 0 20px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 30PX;
+}
+
+.column1, .column2 {
+    flex: 1;
+    padding: 0 10px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+li {
+    font-size: 1em;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.logo-rightbox{
+    position: absolute;
+    bottom: 0%;
+}
+
+.content3{
+    width: 100%;
+    display: flex;
+    margin-top: 270px;
+}
+
+.left2{
+    margin-top: 30px;
+    width: 45%;
+    height: 800px;
+   
+    
+
+}
+
+.hndgs2 {
+   margin-left: 180px;
+
+}
+
+.hndgs h2{
+   font-size: 2rem;
+   line-height: 1.5;
+}
+
+.chngs {
+    margin-left: 180px;
+    margin-top: 30px;
+    font-size: 1.1rem;
+    line-height: 2;
+    font-weight: 200;
+}
+
+.c-para{
+    margin-left: 180px;
+}
+
+.right2{
+    width: 55%;
+    height: 800px;
+   
+}
+
+.pic2{
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 40px;
+    height: 550px;
+    width: 625px;
+   
+}
+
+.image4{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://zerodha.com/static/images/ecosystem.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+       
+    
+}
+
+
+
+.first-hd{
+    margin-top: 10px;
+    margin-left: 180px;
+    display: inline-block;
+    color: blue;
+}
+
+.first-hd p:hover{
+    color:black;
+    cursor: pointer;
+}
+
+.second-hd{
+    margin-top: 10px;
+    margin-left: 70px;
+    display: inline-block;
+    color: blue;
+}
+
+.second-hd p:hover{
+    color: black;
+    cursor: pointer;
+}

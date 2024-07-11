@@ -1,0 +1,42 @@
+/* P{
+    border:  2px solid;
+    height:20vh;
+    overflow: scroll;
+} */
+
+
+
+
+
+/* 
+display box with div and all property(will learn furter in next class)---- */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section{
+    height: 40vh;
+    display: flex;
+    overflow: scroll;
+}
+
+div{
+    margin: 10px;
+    min-width: 30vw;
+    height:30vw;
+    background: orange;
+    section::-webkit-srollbar{
+        display: none;t
+    }
+} */
+
+P{
+    text-align: center;
+    text-shadow:20px 20px 1px red;
+    text-decoration-line: underline;
+    text-transform:capitalize;
+
+}

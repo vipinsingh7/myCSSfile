@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button-clickable</title>
+</head>
+<body>
+    <button id="btn1" >Click me</button>
+    <button id="btn2" >Click me</button>
+    <script>
+        function funct1(){
+            document.body.style.backgroundColor="black";
+        }
+
+        function funct2(){
+            document.body.style.backgroundColor="white";
+        }
+
+        let b1=document.getElementById("btn1");
+        let b2=document.getElementById("btn2");
+
+        b1.addEventListener('click',funct1)
+        b2.addEventListener('click',funct2)
+    </script>
+</body>
+</html>
